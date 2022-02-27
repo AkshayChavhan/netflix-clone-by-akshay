@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+    color: white;
+}
+
+:root{
+    --ascend :#e50914 ;
+    --main:#141414 ; 
+}
+
+header .container{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration : none ;
+    color : white ;
+    margin-right : 10px ;
+}
+
+header nav a:hover{
+    color:dodgerblue ;
+}
+
+
+
+
+
+
+
+
+
+
+
